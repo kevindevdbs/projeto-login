@@ -66,11 +66,13 @@ div#formulario p{
 div.campo{
   background-color: #5f2c82;
   border: 2px solid #5f2c82;
-  display: block;
+  display: flex;
   width: 100%;
   height: 40px;
   border-radius: 8px;
   margin: 5px 0px;
+  align-items: center;
+  align-content: center;
 }
 
 form label{
@@ -91,7 +93,7 @@ div.campo input{
   width: calc(100% - 44px);
   border-radius: 8px;
   padding: 4px;
-  transform: translateY(-12px);
+  align-items: center;
 }
 
 div.campo input:focus-within{
