@@ -21,14 +21,14 @@ TV: acima de 1200px
   }
 
   div#imagem {
-    float: left;
     width: 30%;
     height: 100%;
+    float: left;
   }
 
   div#formulario {
-    float: right;
     width: 70%;
+    float: right;
   }
 
   div#formulario p{
@@ -46,8 +46,8 @@ TV: acima de 1200px
   section#login {
     width: 950px;
     height: 400px;
-    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+    transition: width 0.3s, height 0.3s;
   }
 
   div#imagem {
